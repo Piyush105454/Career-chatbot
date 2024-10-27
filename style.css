@@ -1,0 +1,56 @@
+body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f8fb; /* Fallback color */
+            background-image: url('image.png.webp'); /* Add your image path here */
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the background image */
+            background-repeat: no-repeat; /* Prevent repeating the background image */
+        }
+        .chatbot-container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.8); /* Make background slightly transparent */
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .thumbnail {
+            width: 100%; /* Set to 100% of the container */
+            max-width: 300px; /* Maximum width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 8px;
+        }
+        .response {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #e8f4f8;
+            border-radius: 8px;
+            text-align: left; /* Align text to the left for better readability */
+        }
+        input[type="text"] {
+            padding: 10px;
+            width: 80%;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            margin-bottom: 10px; /* Added margin for spacing */
+        }
+        button {
+            padding: 10px 15px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        button:hover {
+            background-color: #45a049; /* Change button color on hover */
+        }
+        .chatbox-image {
+            width: 100%; /* Set to 100% of the container */
+            max-width: 300px; /* Maximum width */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 8px;
+        }
